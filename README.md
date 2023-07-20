@@ -31,6 +31,7 @@ Loaded the indexProcessed.csv into python dataframe --> Kafka Producer keeps on 
 #### Steps Executed
 
 1. Downloaded some sample stock market data in the csv format.
-2. Used python to simulate and produce that data and put into the kafka clusters. From kafka producer sent this sample data in kafka topics every 2s. 
-3. Consumed this kafka topics using Kafka consumer and store the data into s3 in json format. 
-4. Crawled the above data to create the Glue catalog tables and queried the data using the Athena.
+2. Used python to simulate this data as simple dataframes and put into the kafka clusters. 
+3. From kafka producer sent this sample data in kafka topics every 2s. 
+4. Consumed this kafka topics using Kafka consumer and store the data into s3 in json format. 
+5. Crawled the above data to create the Glue catalog tables and queried the data using the Athena.
